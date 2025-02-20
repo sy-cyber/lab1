@@ -1,53 +1,62 @@
-nav {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     width: 100%;
-    height: 10vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    font-size: 24pt;
-   
-   
 }
 
-
-nav a {
-    margin-right: 50px;
-    text-decoration: none;
+.form-container {
+    width: 300px;
+   margin: 0 auto;
+   padding: 20px;
+   border: 1px solid blue;
+   border-radius: 5px;
+   background-color:white;
+   opacity: 80%;
 }
 
-.home {
-    display: flex;
-    height: 90vh;
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
     width: 100%;
-    background-color: rgb(122, 92, 150);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 50pt;
+    padding: 8px;
+    font-size: 10pt;
+    border: 1px solid lightgreen;
+    border-radius: 3px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
     color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.about {
-    display: flex;
-    height: 90vh;
-    width: 100%;
-    background-color: rgb(69, 72, 69);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 50pt;
-    color:rgb(109, 115, 119)
+.submit-btn:hover {
+    background-color: blueviolet;
+
 }
 
-.contacts {
-    display: flex;
-    height: 90vh;
-    width: 100%;
-    background-color: rgb(80, 37, 38);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 50pt;
-    color:rgb(196, 218, 175)
+p {
+    margin-top: 15px;
 }
